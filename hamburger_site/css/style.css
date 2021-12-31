@@ -100,7 +100,7 @@ dd {
   content: "";
   width: 24px;
   height: 24px;
-  background: url("/images/search_icon.svg") no-repeat center center/auto 100%;
+  background: url(../../../images/search_icon＿n.svg) no-repeat center center/auto 100%;
   display: inline-block;
   position: absolute;
   text-align: center;
@@ -487,17 +487,17 @@ dd {
 }
 
 .p-take-out {
-  background-image: url(../images/take-out_image.svg);
+  background-image: url(../../../images/take-out_image.svg);
 }
 
 .p-eat-in {
-  background-image: url(../images/eat-in_image.svg);
+  background-image: url(../../../images/eat-in_image.svg);
 }
 
 /* map */
 .p-access {
   position: relative;
-  background-image: url(../images/map_sp.svg);
+  background-image: url(../../../images/map_sp.svg);
   background-size: cover;
   background-color: black;
   background-position: center 0;
@@ -506,12 +506,12 @@ dd {
 @media screen and (min-width: 600px) {
   .p-access {
     min-height: inherit;
-    background-image: url(../images/map_tablet.svg);
+    background-image: url(../../../images/map_tablet.svg);
   }
 }
 @media screen and (min-width: 1200px) {
   .p-access {
-    background-image: url(../images/map_pc.svg);
+    background-image: url(../../../images/map_pc.svg);
   }
 }
 .p-access .p-store-description {
