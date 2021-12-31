@@ -15,12 +15,12 @@
 * ========================== */
 
 /* Component* -------------------- */
-@use "object/component/search";
 @use "object/component/cover";
 @use "object/component/button";
 
 /* Project------------------------ */
 @use "object/project/p-header";
+@use "object/project/search";
 @use "object/project/sidebar";
 @use "object/project/top";
 @use "object/project/branch-menu";
