@@ -1,2 +1,2 @@
-# hambarger_site
+# hamburger_site
 デザインカンプからのコーディング課題
