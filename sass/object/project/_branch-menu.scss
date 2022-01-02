@@ -83,8 +83,9 @@
   }
 }
 .p-take-out {
-  background-image: url(../../../images/take-out_image.svg);
+  // background-image: url(/images/take-out_image.svg);
+  background-image: url("/images/take-out_image.svg");
 }
 .p-eat-in {
-  background-image: url(../../../images/eat-in_image.svg);
+  background-image: url(/images/eat-in_image.svg);
 }
