@@ -493,7 +493,7 @@ dd {
 }
 
 .p-eat-in {
-  background-image: url(/images/eat-in_image.svg);
+  background-image: url("/images/eat-in_image.svg");
 }
 
 /* map */
