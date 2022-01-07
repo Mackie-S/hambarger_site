@@ -7,6 +7,5 @@
   color: #fff;
   @include bp.bp(pc) {
     grid-column: 1/3;
-    grid-row: 3/4;
   }
 }
