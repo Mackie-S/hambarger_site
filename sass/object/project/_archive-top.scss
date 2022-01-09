@@ -1,0 +1,79 @@
+@use "../../foundation/breakpoints" as bp;
+// archiveとarchive-searchのtop部分
+.p-archive__top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/images/archive_image_sp.svg");
+  background-color: rgba($color: #000000, $alpha: 1.0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include bp.bp(tab) {
+    background-image: url("/images/archive_image_tab.svg");
+    align-items: center;
+    flex-direction: inherit;
+  }
+  @include bp.bp(pc) {
+    background-image: url("/images/archive_image_pc.svg");
+  }
+  &-title {
+    color: white;
+    font-size: 36px;
+    padding-top: 30%;
+    padding-left: 37px;
+    @include bp.bp(tab) {
+      font-size: 60px;
+      padding-top: 15%;
+      padding-bottom: 15%;
+      padding-left: 86px;
+    }
+    @include bp.bp(pc) {
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+  }
+  &-title--sub {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30%;
+    padding-left: 37px;
+    @include bp.bp(tab) {
+      padding-left: 20px;
+      padding-top: 15%;
+      padding-bottom: 15%;
+    }
+    @include bp.bp(pc) {
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+  }
+  &-image--sp {
+    background-color: rgba($color: #000000, $alpha: 1);
+    width: 100%;
+    display: block;
+    @include bp.bp(tab) {
+      display: none;
+    }
+  }
+  &-image--tab {
+    background-color: rgba($color: #000000, $alpha: 1);
+    width: 100%;
+    display: none;
+    @include bp.bp(tab) {
+      display: block;
+    }
+    @include bp.bp(pc) {
+      display: none;
+    }
+  }
+  &-image--pc {
+    background-color: rgba($color: #000000, $alpha: 1);
+    width: 100%;
+    display: none;
+    @include bp.bp(pc) {
+      display: block;
+    }
+  }
+}
