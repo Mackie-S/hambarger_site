@@ -537,6 +537,78 @@ dd {
   }
 }
 
+.p-card {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .p-card {
+    margin-left: 40px;
+    margin-right: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media screen and (min-width: 1550px) {
+  .p-card {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .p-card img {
+    width: 50%;
+  }
+}
+.p-card__desc {
+  background-color: #3C2B1C;
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  .p-card__desc {
+    width: 50%;
+  }
+}
+.p-card__desc h4 {
+  font-size: 36px;
+  margin: 30px 20px 24px 20px;
+}
+.p-card__desc dt {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.p-card__desc dd {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.p-card__desc-button {
+  font-size: 16px;
+  margin: 40px auto;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  border: solid 0;
+  font-weight: bold;
+  cursor: pointer;
+  border-color: white;
+  color: #707070;
+}
+
 /*Take out or Eat in部分*/
 @media screen and (min-width: 600px) {
   .p-contents__branch-menu {

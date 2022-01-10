@@ -11,20 +11,20 @@
     margin-left: 100px;
     margin-right: 100px;
   }
-  h3{
+  h3 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 28px;
     @include bp.bp(tab) {
       font-size: 36px;
       margin-top: 35px;
-    margin-bottom: 25px;
+      margin-bottom: 25px;
     }
-    @include bp.bp(pc){
+    @include bp.bp(pc) {
       margin-top: 60px;
     }
   }
-  p{
+  p {
     margin-bottom: 20px;
     @include bp.bp(tab) {
       margin-bottom: 37px;
