@@ -1,0 +1,36 @@
+@use "../../foundation/breakpoints" as bp;
+// archiveとarchive-searchの小見出し部分
+.p-archive__desc {
+  margin-left: 20px;
+  margin-right: 20px;
+  @include bp.bp(tab) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  @include bp.bp(pc) {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    @include bp.bp(tab) {
+      font-size: 36px;
+      margin-top: 35px;
+    margin-bottom: 25px;
+    }
+    @include bp.bp(pc){
+      margin-top: 60px;
+    }
+  }
+  p{
+    margin-bottom: 20px;
+    @include bp.bp(tab) {
+      margin-bottom: 37px;
+    }
+    @include bp.bp(pc) {
+      margin-bottom: 70px;
+    }
+  }
+}

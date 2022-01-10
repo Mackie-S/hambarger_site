@@ -2,6 +2,7 @@
 body {
   font-family: "M+ 1m", sans-serif;
   width: 100%;
+  color: #3c2a10;
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -486,6 +487,53 @@ dd {
 @media screen and (min-width: 1200px) {
   .p-archive__top-image--pc {
     display: block;
+  }
+}
+
+.p-archive__desc {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 600px) {
+  .p-archive__desc {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-archive__desc {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+.p-archive__desc h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+@media screen and (min-width: 600px) {
+  .p-archive__desc h3 {
+    font-size: 36px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-archive__desc h3 {
+    margin-top: 60px;
+  }
+}
+.p-archive__desc p {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 600px) {
+  .p-archive__desc p {
+    margin-bottom: 37px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-archive__desc p {
+    margin-bottom: 70px;
   }
 }
 
