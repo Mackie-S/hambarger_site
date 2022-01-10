@@ -7,7 +7,7 @@
     margin-left: 40px;
     margin-right: 40px;
   }
-  @include bp.bp(pc) {
+  @include bp.bp(lpc) {
     margin-left: 100px;
     margin-right: 100px;
   }
