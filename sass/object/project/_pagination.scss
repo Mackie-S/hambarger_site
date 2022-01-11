@@ -1,0 +1,42 @@
+@use "../../foundation/breakpoints" as bp;
+
+.p-pagination {
+  margin-left: 20px;
+  margin-right: 20px;
+  @include bp.bp(tab) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  @include bp.bp(lpc) {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  &__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    @include bp.bp(tab) {
+      justify-content: center;
+    }
+    &-item {
+      display: none;
+      @include bp.bp(tab) {
+        display: block;
+      }
+      &--prev,
+      &--next {
+        @include bp.bp(tab) {
+          font-size: 0;
+        }
+      }
+      &--prev::before {
+        content: "";
+        background-image: url(/images/prev_icon.svg);
+        width: 17px;
+        height: 17px;
+        display: inline-block;
+      }
+    }
+  }
+}
