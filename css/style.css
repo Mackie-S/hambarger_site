@@ -593,6 +593,7 @@ dd {
   margin-right: 20px;
 }
 .p-card__desc-button {
+  display: block;
   font-size: 16px;
   margin: 10% auto;
   width: 160px;
@@ -603,6 +604,13 @@ dd {
   cursor: pointer;
   border-color: white;
   color: #707070;
+}
+@media screen and (min-width: 1550px) {
+  .p-card__desc-button {
+    width: 290px;
+    height: 76px;
+    border-radius: 40px;
+  }
 }
 
 /*Take out or Eat in部分*/
