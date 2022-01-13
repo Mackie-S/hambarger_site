@@ -6,7 +6,7 @@
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  @include bp.bp(tab) {
+  @include bp.bp(lsp) {
     margin-left: 40px;
     margin-right: 40px;
     flex-direction: row;
@@ -17,7 +17,7 @@
     margin-bottom: 30px;
   }
   &__image {
-    @include bp.bp(tab) {
+    @include bp.bp(lsp) {
       width: 50%;
       display: none;
     }
@@ -27,7 +27,7 @@
   }
   &__image--tab {
     display: none;
-    @include bp.bp(tab) {
+    @include bp.bp(lsp) {
       width: 50%;
       display: inherit;
     }
@@ -38,17 +38,19 @@
   &__desc {
     background-color: #3c2b1c;
     color: white;
-    @include bp.bp(tab) {
+    display: flex;
+    flex-direction: column;
+    @include bp.bp(lsp) {
       width: 50%;
     }
     h4 {
       /*あえてクラス名は振らず詳細度でコントロール*/
       font-size: 36px;
       margin: 30px 20px 24px 20px;
-      @include bp.bp(tab) {
+      @include bp.bp(lsp) {
         font-size: 20px;
       }
-      @include bp.bp(lpc) {
+      @include bp.bp(pc) {
         font-size: 36px;
       }
     }
@@ -58,9 +60,9 @@
       margin-bottom: 10px;
       margin-left: 20px;
       margin-right: 20px;
-      @include bp.bp(tab) {
+      @include bp.bp(lsp) {
       }
-      @include bp.bp(lpc) {
+      @include bp.bp(pc) {
         font-size: 24px;
       }
     }
@@ -72,7 +74,7 @@
     &-button {
       display: block;
       font-size: 16px;
-      margin: 10% auto;
+      margin: 40px auto;
       width: 160px;
       height: 40px;
       border-radius: 20px;
@@ -81,7 +83,10 @@
       cursor: pointer;
       border-color: white;
       color: #707070;
-      @include bp.bp(lpc) {
+      @include bp.bp(lsp) {
+        margin: auto;
+      }
+      @include bp.bp(pc) {
         width: 290px;
         height: 76px;
         border-radius: 40px;

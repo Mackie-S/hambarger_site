@@ -512,7 +512,7 @@ dd {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 760px) {
   .p-card {
     margin-left: 40px;
     margin-right: 40px;
@@ -526,7 +526,7 @@ dd {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 760px) {
   .p-card__image {
     width: 50%;
     display: none;
@@ -540,7 +540,7 @@ dd {
 .p-card__image--tab {
   display: none;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 760px) {
   .p-card__image--tab {
     width: 50%;
     display: inherit;
@@ -554,8 +554,10 @@ dd {
 .p-card__desc {
   background-color: #3c2b1c;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 760px) {
   .p-card__desc {
     width: 50%;
   }
@@ -565,12 +567,12 @@ dd {
   font-size: 36px;
   margin: 30px 20px 24px 20px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 760px) {
   .p-card__desc h4 {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1550px) {
+@media screen and (min-width: 1200px) {
   .p-card__desc h4 {
     font-size: 36px;
   }
@@ -582,7 +584,7 @@ dd {
   margin-left: 20px;
   margin-right: 20px;
 }
-@media screen and (min-width: 1550px) {
+@media screen and (min-width: 1200px) {
   .p-card__desc dt {
     font-size: 24px;
   }
@@ -595,7 +597,7 @@ dd {
 .p-card__desc-button {
   display: block;
   font-size: 16px;
-  margin: 10% auto;
+  margin: 40px auto;
   width: 160px;
   height: 40px;
   border-radius: 20px;
@@ -605,7 +607,12 @@ dd {
   border-color: white;
   color: #707070;
 }
-@media screen and (min-width: 1550px) {
+@media screen and (min-width: 760px) {
+  .p-card__desc-button {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
   .p-card__desc-button {
     width: 290px;
     height: 76px;
