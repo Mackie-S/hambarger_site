@@ -33,6 +33,7 @@
       left: 0.9rem;
       z-index: 10;
     }
+
   }
   &__box__text {
     border-radius: 10px;
@@ -41,6 +42,7 @@
     width: 65%;
     height: 46px;
     font-weight: bold;
+    color: #707070;
     @include bp.bp(tab) {
       width: 396px;
     }

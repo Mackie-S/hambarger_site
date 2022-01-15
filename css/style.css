@@ -208,6 +208,7 @@ dd {
   width: 65%;
   height: 46px;
   font-weight: bold;
+  color: #707070;
 }
 @media screen and (min-width: 600px) {
   .p-search__box__text {
