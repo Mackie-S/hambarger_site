@@ -207,6 +207,7 @@ dd {
   padding-left: 44px;
   width: 65%;
   height: 46px;
+  font-weight: bold;
 }
 @media screen and (min-width: 600px) {
   .p-search__box__text {
@@ -260,7 +261,7 @@ dd {
   padding-bottom: 100%;
   position: fixed;
   top: 0;
-  right: -100%;
+  right: -120%;
   transition: all 0.3s;
   z-index: 9999;
   overflow: auto;
