@@ -45,11 +45,8 @@
   }
   &__partition {
     position: absolute;
-    display: block;
-    font-size: 0;
     height: 3px;
     width: 34px;
-    background-color: white;
     top: 92px;
     left: 15px;
     @include bp.bp(tab) {
