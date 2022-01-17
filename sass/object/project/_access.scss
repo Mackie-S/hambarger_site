@@ -38,11 +38,8 @@
       }
     }
     span {
-      display: block;
-      font-size: 0;
       height: 1px;
       width: 75px;
-      background-color: white;
       margin: 20px 0;
       @include bp.bp(pc) {
         margin: 60px 0;
