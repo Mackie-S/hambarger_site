@@ -114,6 +114,15 @@ dd {
   transform: translateY(-22px) rotate(45deg);
 }
 
+.c-partition {
+  /*縦バージョンのpartitionを基準*/
+  width: 1px;
+  height: 20px;
+  background-color: #fff;
+  display: block;
+  font-size: 0;
+}
+
 .p-header {
   background-color: #fff7ef;
   width: 100%;
@@ -908,13 +917,8 @@ dd {
 .p-footer__menu a {
   color: white;
 }
-.p-footer__menu span {
-  width: 1px;
-  height: 20px;
-  background-color: #fff;
-  display: block;
+.p-footer__menu__partition {
   margin: 10px;
-  font-size: 0;
 }
 .p-footer__cop {
   margin: 20px;

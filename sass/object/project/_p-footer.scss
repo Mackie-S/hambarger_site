@@ -12,13 +12,8 @@
     a {
       color: white;
     }
-    span {
-      width: 1px;
-      height: 20px;
-      background-color: #fff;
-      display: block;
+    &__partition {
       margin: 10px;
-      font-size: 0;
     }
   }
   &__cop {
