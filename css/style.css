@@ -134,6 +134,73 @@ dd {
   font-size: 0;
 }
 
+.c-hero {
+  /*ここにbackground-imageを入れると基本のheroになる*/
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-width: 600px) {
+  .c-hero {
+    align-items: center;
+  }
+}
+.c-hero__title {
+  color: white;
+  font-size: 36px;
+  padding-top: 30%;
+  padding-left: 37px;
+}
+@media screen and (min-width: 600px) {
+  .c-hero__title {
+    font-size: 60px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 86px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .c-hero__title {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+.c-hero__title-sub {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 30%;
+  padding-left: 37px;
+}
+@media screen and (min-width: 600px) {
+  .c-hero__title-sub {
+    padding-left: 20px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .c-hero__title-sub {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+.c-article-container {
+  padding: 20px;
+}
+@media screen and (min-width: 600px) {
+  .c-article-container {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  .c-article-container {
+    padding: 80px;
+  }
+}
+
 .p-header {
   background-color: #fff7ef;
   width: 100%;
@@ -375,36 +442,29 @@ dd {
   }
 }
 
-.p-archive__top {
-  width: 100%;
+.p-archive-main__hero {
   display: flex;
   flex-direction: column;
   background-image: url("/images/archive_image_sp.svg");
   background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 @media screen and (min-width: 600px) {
-  .p-archive__top {
+  .p-archive-main__hero {
     background-image: url("/images/archive_image_tab.svg");
-    align-items: center;
     flex-direction: inherit;
   }
 }
 @media screen and (min-width: 1200px) {
-  .p-archive__top {
+  .p-archive-main__hero {
     background-image: url("/images/archive_image_pc.svg");
   }
 }
-.p-archive__top-title {
-  color: white;
-  font-size: 36px;
+.p-archive-main__hero__title {
   padding-top: 30%;
   padding-left: 37px;
 }
 @media screen and (min-width: 600px) {
-  .p-archive__top-title {
+  .p-archive-main__hero__title {
     font-size: 60px;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -412,64 +472,26 @@ dd {
   }
 }
 @media screen and (min-width: 1200px) {
-  .p-archive__top-title {
+  .p-archive-main__hero__title {
     padding-top: 10%;
     padding-bottom: 10%;
   }
 }
-.p-archive__top-title--sub {
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
+.p-archive-main__hero__title-sub {
   padding-bottom: 30%;
   padding-left: 37px;
 }
 @media screen and (min-width: 600px) {
-  .p-archive__top-title--sub {
+  .p-archive-main__hero__title-sub {
     padding-left: 20px;
     padding-top: 15%;
     padding-bottom: 15%;
   }
 }
 @media screen and (min-width: 1200px) {
-  .p-archive__top-title--sub {
+  .p-archive-main__hero__title-sub {
     padding-top: 5%;
     padding-bottom: 5%;
-  }
-}
-.p-archive__top-image--sp {
-  background-color: black;
-  width: 100%;
-  display: block;
-}
-@media screen and (min-width: 600px) {
-  .p-archive__top-image--sp {
-    display: none;
-  }
-}
-.p-archive__top-image--tab {
-  background-color: black;
-  width: 100%;
-  display: none;
-}
-@media screen and (min-width: 600px) {
-  .p-archive__top-image--tab {
-    display: block;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .p-archive__top-image--tab {
-    display: none;
-  }
-}
-.p-archive__top-image--pc {
-  background-color: black;
-  width: 100%;
-  display: none;
-}
-@media screen and (min-width: 1200px) {
-  .p-archive__top-image--pc {
-    display: block;
   }
 }
 
@@ -734,7 +756,7 @@ dd {
 
 /*Take out or Eat in部分*/
 @media screen and (min-width: 600px) {
-  .p-contents__branch-menu {
+  .p-branch-menu {
     padding: 40px;
     gap: 40px;
     display: flex;
@@ -742,7 +764,7 @@ dd {
   }
 }
 @media screen and (min-width: 1550px) {
-  .p-contents__branch-menu {
+  .p-branch-menu {
     gap: 80px;
     padding: 80px;
   }
