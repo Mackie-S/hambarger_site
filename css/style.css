@@ -495,49 +495,26 @@ dd {
   }
 }
 
-.p-archive__desc {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-@media screen and (min-width: 600px) {
-  .p-archive__desc {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-}
-@media screen and (min-width: 1550px) {
-  .p-archive__desc {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
-.p-archive__desc h3 {
-  margin-top: 30px;
+.p-archive__description__title {
   margin-bottom: 30px;
   font-size: 28px;
 }
 @media screen and (min-width: 600px) {
-  .p-archive__desc h3 {
+  .p-archive__description__title {
     font-size: 36px;
-    margin-top: 35px;
     margin-bottom: 25px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .p-archive__desc h3 {
-    margin-top: 60px;
-  }
-}
-.p-archive__desc p {
+.p-archive__description__title-p {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 600px) {
-  .p-archive__desc p {
+  .p-archive__description__title-p {
     margin-bottom: 37px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .p-archive__desc p {
+  .p-archive__description__title-p {
     margin-bottom: 70px;
   }
 }
