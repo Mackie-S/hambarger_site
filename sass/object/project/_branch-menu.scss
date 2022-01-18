@@ -3,18 +3,15 @@
 /*Take out or Eat in部分*/
 .p-branch-menu {
   @include bp.bp(tab) {
-    padding: 40px;
     gap: 40px;
     display: flex;
     justify-content: space-between;
   }
   @include bp.bp(lpc) {
     gap: 80px;
-    padding: 80px;
   }
 }
 .p-br-menu {
-  margin: 20px;
   position: relative;
   padding-top: 70%;
   display: flex;
@@ -25,7 +22,6 @@
   @include bp.bp(tab) {
     padding-top: 45%;
     width: 100%;
-    margin: inherit;
   }
   @include bp.bp(pc) {
     padding-top: 50%;
@@ -85,4 +81,8 @@
 }
 .p-eat-in {
   background-image: url("/images/eat-in_image.svg");
+  margin-top: 20px;
+  @include bp.bp(tab){
+    margin-top: inherit;
+  }
 }
