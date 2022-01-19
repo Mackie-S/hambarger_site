@@ -74,7 +74,7 @@ dd {
 }
 
 /* メニューopen時の背景*/
-.c-background-cover {
+.c-cover {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -84,7 +84,7 @@ dd {
   transition: all 0.3s;
   background-color: rgba(0, 0, 0, 0);
 }
-.c-background-cover.active {
+.c-cover.active {
   z-index: 9998;
   visibility: inherit;
   background-color: rgba(0, 0, 0, 0.5);
@@ -223,6 +223,11 @@ dd {
   .c-description__title-p {
     margin-bottom: 70px;
   }
+}
+
+.c-background {
+  width: 100%;
+  background-color: #F5F5F5;
 }
 
 .p-header {
