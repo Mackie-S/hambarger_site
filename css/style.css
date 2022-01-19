@@ -187,16 +187,16 @@ dd {
   }
 }
 
-.c-article-container {
+.c-container {
   padding: 20px;
 }
 @media screen and (min-width: 600px) {
-  .c-article-container {
+  .c-container {
     padding: 40px;
   }
 }
 @media screen and (min-width: 1550px) {
-  .c-article-container {
+  .c-container {
     padding: 80px;
   }
 }

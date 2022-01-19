@@ -1,6 +1,6 @@
 // mainエリアの左右の余白
 @use "../../foundation/breakpoints" as bp;
-.c-article-container{
+.c-container{
   padding: 20px;
   @include bp.bp(tab) {
     padding: 40px;
