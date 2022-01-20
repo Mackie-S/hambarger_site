@@ -961,6 +961,33 @@ dd {
   }
 }
 
+.p-table {
+  width: 100%;
+  border: solid 0.1px #707070;
+  border-collapse: collapse;
+  background-color: white;
+  color: #3c2a10;
+  font-weight: regular;
+  margin: 15px 0;
+}
+@media screen and (min-width: 600px) {
+  .p-table {
+    margin: 30px 0;
+  }
+}
+.p-table td {
+  border: solid 0.1px #707070;
+  padding: 30px 0 30px 20px;
+}
+@media screen and (min-width: 600px) {
+  .p-table td {
+    padding-right: 30px;
+  }
+}
+.p-table td:nth-child(1) {
+  width: 30%;
+}
+
 /**
 * Foundation
 * ========================== */
