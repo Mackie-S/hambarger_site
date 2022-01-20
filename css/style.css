@@ -72,6 +72,20 @@ dd {
   height: 46px;
   cursor: pointer;
 }
+.c-button--single {
+  background: linear-gradient(#f2ede9, #ded8d3);
+  color: #3c2a10;
+  margin: 15px 0;
+  width: 100%;
+  height: 80px;
+}
+@media screen and (min-width: 600px) {
+  .c-button--single {
+    width: 400px;
+    height: 100px;
+    margin: 30px 0;
+  }
+}
 
 /* メニューopen時の背景*/
 .c-cover {
@@ -225,9 +239,13 @@ dd {
   }
 }
 
-.c-background {
+.c-background--gray {
   width: 100%;
   background-color: #F5F5F5;
+}
+
+.c-bold {
+  font-weight: bold;
 }
 
 .p-header {
@@ -986,6 +1004,47 @@ dd {
 }
 .p-table td:nth-child(1) {
   width: 30%;
+}
+
+.p-paragraph--single {
+  margin: 15px 0;
+}
+@media screen and (min-width: 600px) {
+  .p-paragraph--single {
+    margin: 30px 0;
+  }
+}
+
+.p-list {
+  margin: 15px 0;
+}
+@media screen and (min-width: 600px) {
+  .p-list {
+    margin: 30px 60px;
+  }
+}
+.p-list ol {
+  padding-left: 30px;
+}
+.p-list ol:nth-child(2) {
+  margin-left: 20px;
+}
+.p-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.p-list ul:nth-child(2) {
+  padding-left: 20px;
+}
+
+.p-preformatted-text {
+  margin: 15px 0;
+  padding: 30px 50px 20px 50px;
+}
+@media screen and (min-width: 600px) {
+  .p-preformatted-text {
+    margin: 30px 0;
+  }
 }
 
 /**

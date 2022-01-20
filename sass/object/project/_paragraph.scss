@@ -1,0 +1,8 @@
+//singlとpageにあるboldの部分
+@use "../../foundation/breakpoints" as bp;
+.p-paragraph--single {
+  margin: 15px 0;
+  @include bp.bp(tab) {
+    margin: 30px 0;
+  }
+}
